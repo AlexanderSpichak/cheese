@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheeseKate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body id="overflow-hidden">
+
+    <header class="header">
+        <div class="wrap">
+            <div class="header__logo">
+                <img src="img/logo2.jpg" alt="logo">
+            </div>
+            <div class="header__title">
+                <h1>
+                    Домашние десерты из натуральных продуктов <br>
+                    <span class="header__mwl">made with love</span> <span class="heart">♥</span>
+                </h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="cards container">
+            <div class="cards-box">
+                <div id="btn_modal_window" class="card">
+                    <div>
+                        <img class="image--off" src="img/fistashki1.jpg" alt="Cheese">
+                        <img class="image--on" src="img/7.jpeg" alt="Cheese">
+                    </div>
+                    <h2>Фисташковый Чизкейк с малиной</h2>
+                    <span>3200 р.</span>
+                    <p class="mwl">made with love</p>
+                </div>
+                <div id="btn_modal_window2" class="card">
+                    <div>
+                        <img class="image--off" src="img/Cosmo1.jpg" alt="Cheese">
+                        <img class="image--on" src="img/8.jpeg" alt="Cheese">
+                    </div>
+                    <h2>Cosmo торт</h2>
+                    <span>2700р.</span>
+                    <p class="mwl">made with love</p>
+                </div>
+                <div id="btn_modal_window3" class="card">
+                    <div>
+                        <img class="image--off" src="img/3.jpeg" alt="Cheese">
+                        <img class="image--on" src="img/4.jpeg" alt="Cheese">
+                    </div>
+                    <h2>Классический чизкейк Нью-Йорк с соленой карамелью</h2>
+                    <span>2700 р.</span>
+                    <p class="mwl">made with love</p>
+                </div>
+                <div id="btn_modal_window4" class="card">
+                    <div>
+                        <img class="image--off" src="img/1.jpeg" alt="Cheese">
+                        <img class="image--on" src="img/2.jpeg" alt="Cheese">
+                    </div>
+                    <h2>Ореховый чизкейк</h2>
+                    <span>2800 р.</span>
+                    <p class="mwl">made with love</p>
+                </div>
+                <div id="btn_modal_window5" class="card">
+                    <div>
+                        <img class="image--off" src="img/9.jpeg" alt="Cheese">
+                        <img class="image--on" src="img/10.jpeg" alt="Cheese">
+                    </div>
+                    <h2>Классический чизкейк Нью-Йорк</h2>
+                    <span>3100 р.</span>
+                    <p class="mwl">made with love</p>
+                </div>
+                <div id="btn_modal_window6" class="card">
+                    <div>
+                        <img class="image--off" src="img/5.jpeg" alt="Cheese">
+                        <img class="image--on" src="img/6.jpeg" alt="Cheese">
+                    </div>
+                    <h2>Классический чизкейк в сочетании с манго.</h2>
+                    <span>2900 р.</span>
+                    <p class="mwl">made with love</p>
+                </div>
+            </div>
+            <div id="my_modal" class="modal">
+                <div class="modal__header">
+                    <span class="modal__close">&times;</span>
+                </div>
+                <div class="modal__wrap container">
+                    <div class="modal__left">
+                        <div id="main-img"></div>
+                        <div class="modal__previe">
+                            <div class="previe">
+                                <img class="btn-on" src="img/fistashki1.jpg" alt="tort">
+                            </div>
+                            <div class="previe">
+                                <img class="btn-on" src="img/7.jpeg" alt="tort">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal__right">
+                        <h2>Фисташковый Чизкейк с малиной</h2>
+                        <p>Нежнейшая рассыпчатая основа из домашнего миндального печенья, начинка на основе
+                            творожно-сливочного сыра
+                            высокого качества. Натуральная фисташковая паста.</p>
+                        <p class="price">⌀ 20 см (=1,7 кг) - 3200 р.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="my_modal2" class="modal">
+                <div class="modal__header">
+                    <span class="modal__close">&times;</span>
+                </div>
+                <div class="modal__wrap container">
+                    <div class="modal__left">
+                        <div id="main-img1"></div>
+                        <div class="modal__previe">
+                            <div class="previe">
+                                <img class="btn-on" src="img/Cosmo1.jpg" alt="tort">
+                            </div>
+                            <div class="previe">
+                                <img class="btn-on" src="img/8.jpeg" alt="tort">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal__right">
+                        <h2>Cosmo торт</h2>
+                        <p>Классический чизкейк Нью-Йорк, на основе натурального красителя - голубого чая Матча.</p>
+
+                        <p class="price">⌀ 20 см (=1,7 кг) - 2700 р.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div id="my_modal3" class="modal">
+                <div class="modal__header">
+                    <span class="modal__close">&times;</span>
+                </div>
+                <div class="modal__wrap container">
+                    <div class="modal__left">
+                        <div id="main-img2"></div>
+                        <div class="modal__previe">
+                            <div class="previe">
+                                <img class="btn-on" src="img/3.jpeg" alt="tort">
+                            </div>
+                            <div class="previe">
+                                <img class="btn-on" src="img/4.jpeg" alt="tort">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal__right">
+                        <h2>Классический чизкейк Нью-Йорк с соленой карамелью</h2>
+                        <p>Вкусная рассыпчатая основа из домашнего миндального печенья, начинка на основе
+                            творожно-сливочного сыра
+                            высокого качества. Соленная карамель.</p>
+                        <p class="price">⌀ 20 см (=1,7 кг) - 2700 р.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="my_modal4" class="modal">
+                <div class="modal__header">
+                    <span class="modal__close">&times;</span>
+                </div>
+                <div class="modal__wrap container">
+                    <div class="modal__left">
+                        <div id="main-img3"></div>
+                        <div class="modal__previe">
+                            <div class="previe">
+                                <img class="btn-on" src="img/1.jpeg" alt="tort">
+                            </div>
+                            <div class="previe">
+                                <img class="btn-on" src="img/2.jpeg" alt="tort">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal__right">
+                        <h2>Ореховый чизкейк</h2>
+                        <p>Невероятно вкусный, нежный чизкейк. Основа из домашнего печенья с дроблённым арахисом.
+                            Начинка на основе творожного сыра с натуральной фундучной пастой.
+                        </p>
+                        <p class="price">⌀ 20 см (=1,8 кг) - 2800 р.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="my_modal5" class="modal">
+                <div class="modal__header">
+                    <span class="modal__close">&times;</span>
+                </div>
+                <div class="modal__wrap">
+                    <div class="modal__left">
+                        <div id="main-img4"></div>
+                        <div class="modal__previe">
+                            <div class="previe">
+                                <img class="btn-on" src="img/9.jpeg" alt="tort">
+                            </div>
+                            <div class="previe">
+                                <img class="btn-on" src="img/10.jpeg" alt="tort">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal__right">
+                        <h2>Классический чизкейк Нью-Йорк​​​​​​​</h2>
+                        <p>Нежнейшая рассыпчатая основа из домашнего печенья Сабле, начинка из творожно-сливочного сыра
+                            высокого
+                            качества. Декор свежими сезонными ягодами.</p>
+                        <p class="price">⌀ 20 см (=1,7 кг) - 3100 р.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="my_modal6" class="modal">
+                <div class="modal__header">
+                    <span class="modal__close">&times;</span>
+                </div>
+                <div class="modal__wrap">
+                    <div class="modal__left">
+                        <div id="main-img5"></div>
+                        <div class="modal__previe">
+                            <div class="previe">
+                                <img class="btn-on" src="img/5.jpeg" alt="tort">
+                            </div>
+                            <div class="previe">
+                                <img class="btn-on" src="img/6.jpeg" alt="tort">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal__right">
+                        <h2>Классический чизкейк в сочетании с манго.</h2>
+                        <p>Нежнейшая рассыпчатая основа из домашнего миндального печенья, начинка на основе
+                            творожно-сливочного сыра высокого качества. Покрытие конфи-манго.</p>
+                        <p class="price">⌀ 20 см (=1,7 кг) - 2900 р.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="my_modal7" class="modal">
+                <div class="modal__header">
+                    <span class="modal__close">&times;</span>
+                </div>
+                <div class="modal__wrap">
+                    <div class="modal__left">
+                        <div id="main-img6"></div>
+                        <div class="modal__previe">
+                            <div class="previe">
+                                <img class="btn-on" src="img/cupcake.jpg" alt="tort">
+                            </div>
+                            <div class="previe">
+                                <img class="btn-on" src="img/11.jpeg" alt="tort">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal__right">
+                        <h2>Капкейки</h2>
+                        <p>На Ваш выбор Капкейки: Шоколадные/Ванильные</p>
+                        <p>Вкуснейшие, ароматные капкейки на нежной основе со сливочно-творожной шапочкой из натуральных
+                            ингредиентов.</p>
+                        <h3>Варианты начинок:</h3>
+                        <div>
+                            <p>1.Шоколадная (на бельгийском шоколаде)
+                                2.Соленная карамель
+                                3.Черная смородина
+                                4.Вишневая
+                                5.Банановая</p>
+                            <p>
+                                Коробочки:
+                                6 штук-850 р.
+                                9 штук-1300 р.
+                                12 штук- 1700 р.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="btn_modal_window7" class="card-other">
+                <div>
+                    <img src="img/cupcake.jpg" alt="cupcake">
+                    <h2>Капкейки</h2>
+                    <p>На Ваш выбор Капкейки: Шоколадные/Ванильные</p>
+                    <p class="mwl">made with love</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section>
+            <div class="container-slider">
+                <h2>Варианты оформления</h2>
+                <div class="slider">
+                    <div class="slider__container">
+                        <div class="slider__wrapper">
+                            <div class="slider__items">
+                                <div class="slider__item">
+                                    <!-- Контент 1 слайда -->
+                                </div>
+                                <div class="slider__item">
+                                    <!-- Контент 2 слайда -->
+                                </div>
+                                <div class="slider__item">
+                                    <!-- Контент 3 слайда -->
+                                </div>
+                                <div class="slider__item">
+                                    <!-- Контент 4 слайда -->
+                                </div>
+                                <div class="slider__item">
+                                    <!-- Контент 5 слайда -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="slider__control" data-slide="prev"></a>
+                    <a href="#" class="slider__control" data-slide="next"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="delivery">
+            <h2>Данные о заказе и доставке десертов:</h2>
+            <p>Заказ оформляется предварительно, не менее чем за 3 дня до необходимой даты получения.</p>
+            <p>Заказ можно забрать самостоятельно из центра Адлера или заказать доставку курьером.</p>
+            <p> Стоимость доставки рассчитывается отдельно.</p>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p class="font--size">+ 7 918-908-35-78</p>
+        <p class="font--size">Katyaf999@mail.ru</p>
+        <p>По любым вопросам и для заказа можете связаться по телефону, почте и в соцсетях.</p>
+        <div class="social">
+            <a href="https://instagram.com/katecinadze?utm_medium=copy_link" target="_blank"><img
+                    src="img/instagram.svg" alt="instagram"></a>
+            <a href="https://wa.me/79189083578" target="_blank"><img src="img/whatsapp.svg" alt="whatsapp"></a>
+        </div>
+
+    </footer>
+    <script defer src="js/main.js"></script>
+</body>
+
+</html>
